@@ -9,3 +9,5 @@ Code and data for "Learning from Different text-image Pairs: A Relation-enhanced
 ### Train & Test
 sh run_15.sh
 sh run_17.sh
+
+试试
