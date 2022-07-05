@@ -1,7 +1,10 @@
 # R-GCN
 Code and data for "Learning from Different text-image Pairs: A Relation-enhanced Graph Convolutional Network for Multimodal NER" (ACM MM 2022)
 
-### Dataset Filetree
+### Datasets
+
+Please download the processed image features from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr), and keep the path of the dataset consistent with the filetree. Besides, you can also download the pre-trained model from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr) and put it into folder uncased_L-12_H-768_A-12.
+
 ```sh
 ├── /data/
 │  ├── /twitter2015/
@@ -23,15 +26,12 @@ Code and data for "Learning from Different text-image Pairs: A Relation-enhanced
 ```
 
 ### Dependencies
+
 ```bash
 + python 3.6
 + tensorflow 1.14.0
 + numpy 1.14.5
 ```
-
-### Datasets
-
-Please download the processed image features from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr), and keep the path of the dataset consistent with the filetree. Besides, you can also download the pre-trained model from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr) and put it into folder uncased_L-12_H-768_A-12.
 
 
 ### Usage
