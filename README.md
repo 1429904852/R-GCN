@@ -27,8 +27,8 @@ Please download the processed image features from [this site](https://pan.baidu.
 ```sh
 ├── /data/
 │  ├── /twitter2015/
-│  │  │  ├── /images2015_feature/	      // the image feature for each image
-│  │  │  ├── /twitter2015_images/	      // the original image
+│  │  │  ├── /images2015_feature/	        // the image feature for each image
+│  │  │  ├── /twitter2015_images/	        // the original image
 │  │  │  ├── /img2img_sim_topk_vec_2015/	// the top-k image feature for each image
 │  │  │  ├── /img2text_sim_topk_vec_2015/	// the top-k image feature for each sentence
 │  │  ├── train_2.txt
