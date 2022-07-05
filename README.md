@@ -31,7 +31,7 @@ Code and data for "Learning from Different text-image Pairs: A Relation-enhanced
 
 ### Datasets
 
-Download the processed dataset from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr), and keep the path of the dataset is consistent with the filetree. Besides, you can also download the pre-trained model from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr).
+Please download the processed image features from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr), and keep the path of the dataset consistent with the filetree. Besides, you can also download the pre-trained model from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr) and put it into folder uncased_L-12_H-768_A-12.
 
 
 ### Usage
