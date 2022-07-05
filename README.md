@@ -1,6 +1,14 @@
 # R-GCN
 Code and data for "Learning from Different text-image Pairs: A Relation-enhanced Graph Convolutional Network for Multimodal NER" (ACM MM 2022)
 
+### Overview
+
+![image-20220705180811355](figs/R-GCN.jpg)
+
+- In this paper, we propose to leverage the external matching relations between different (text, image) pairs to improve the performance on the MNER task.
+
+- We design a Relation-enhanced Graph Convolutional Network (R-GCN) to model inter-modal relations and intra-modal relations simultaneously. 
+
 ### Dependencies
 
 ```bash
@@ -9,15 +17,15 @@ Code and data for "Learning from Different text-image Pairs: A Relation-enhanced
 + numpy 1.14.5
 ```
 
-### Datasets
+### Download and preprocess the datasets
 
 Please download the processed image features from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr), and keep the path of the dataset consistent with the filetree. Besides, you can also download the pre-trained model from [this site](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr) and put it into folder uncased_L-12_H-768_A-12.
 
 ```sh
 ├── /data/
 │  ├── /twitter2015/
-│  │  │  ├── /images2015_feature/					// the image feature for each image
-│  │  │  ├── /twitter2015_images/					// the original image
+│  │  │  ├── /images2015_feature/			// the image feature for each image
+│  │  │  ├── /twitter2015_images/			// the original image
 │  │  │  ├── /img2img_sim_topk_vec_2015/	// the top-k image feature for each image
 │  │  │  ├── /img2text_sim_topk_vec_2015/	// the top-k image feature for each sentence
 │  │  ├── train_2.txt
