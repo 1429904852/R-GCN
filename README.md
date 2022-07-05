@@ -5,18 +5,18 @@ Code and data for "Learning from Different text-image Pairs: A Relation-enhanced
 ```sh
 ├── /data/
 │  ├── /twitter2015/
-│  │  │  ├── /images2015_feature/             //the image feature
-│  │  │  ├── /twitter2015_images/             //the original image
-│  │  │  ├── /img2img_sim_topk_vec_2015/      //the top-K image feature for each image
-│  │  │  ├── /img2text_sim_topk_vec_2015/			//the top-K image feature for each sentence
+│  │  │  ├── /images2015_feature/
+│  │  │  ├── /twitter2015_images/
+│  │  │  ├── /img2img_sim_topk_vec_2015/
+│  │  │  ├── /img2text_sim_topk_vec_2015/
 │  │  ├── train_2.txt
 │  │  ├── valid_2.txt
 │  │  ├── test_2.txt
 │  ├── /twitter2017/
-│  │  │  ├── /images2017_feature/							//the image feature
-│  │  │  ├── /twitter2017_images/							//the original image
-│  │  │  ├── /img2img_sim_topk_vec_2017/			//the top-K image feature for each image
-│  │  │  ├── /img2text_sim_topk_vec_2017/			//the top-K image feature for each image
+│  │  │  ├── /images2017_feature/
+│  │  │  ├── /twitter2017_images/
+│  │  │  ├── /img2img_sim_topk_vec_2017/
+│  │  │  ├── /img2text_sim_topk_vec_2017/
 │  │  ├── train_2.txt
 │  │  ├── valid_2.txt
 │  │  ├── test_2.txt
@@ -24,9 +24,9 @@ Code and data for "Learning from Different text-image Pairs: A Relation-enhanced
 
 ### Dependencies
 ```bash
-python 3.6
-tensorflow 1.14.0
-numpy 1.14.5
++ python 3.6
++ tensorflow 1.14.0
++ numpy 1.14.5
 ```
 
 ### Datasets
