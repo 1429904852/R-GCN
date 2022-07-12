@@ -1,5 +1,5 @@
 # R-GCN
-Code and data for "Learning from Different text-image Pairs: A Relation-enhanced Graph Convolutional Network for Multimodal NER" (ACM MM 2022)
+Code and data for "Learning from Different text-image Pairs: A Relation-enhanced Graph Convolutional Network for Multimodal NER" (ACMMM 2022)
 
 ## Overview
 
