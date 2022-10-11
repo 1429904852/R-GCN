@@ -1,5 +1,5 @@
 # R-GCN
-Code and data for "Learning from Different text-image Pairs: A Relation-enhanced Graph Convolutional Network for Multimodal NER" (ACMMM 2022)
+Code and data for "[Learning from Different text-image Pairs: A Relation-enhanced Graph Convolutional Network for Multimodal NER](https://dl.acm.org/doi/10.1145/3503161.3548228)" (ACMMM 2022)
 
 ## Overview
 
@@ -67,5 +67,21 @@ python test.py --config_path=config/tw17_config.json
 
 
 ## Citation
-
+```bash
+@inproceedings{10.1145/3503161.3548228,
+    author = {Zhao, Fei and Li, Chunhui and Wu, Zhen and Xing, Shangyu and Dai, Xinyu},
+    title = {Learning from Different Text-Image Pairs: A Relation-Enhanced Graph Convolutional Network for Multimodal NER},
+    year = {2022},
+    isbn = {9781450392037},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3503161.3548228},
+    doi = {10.1145/3503161.3548228},
+    booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
+    pages = {3983–3992},
+    numpages = {10},
+    location = {Lisboa, Portugal},
+    series = {MM '22}
+}
+```
 If the code is used in your research, please cite our paper.
