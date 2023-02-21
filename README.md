@@ -22,7 +22,7 @@ Code and data for "[Learning from Different text-image Pairs: A Relation-enhance
 
 ### Download and preprocess the datasets
 
-Because the image features after processing is very large, you can download them via the link [Baidu Netdist](https://pan.baidu.com/s/1QQHdX2R98F_k7OqtG3upbQ?pwd=0olr). It should be noted that the path of the data is consistent with the file tree.
+Because the image features after processing is very large, you can download them via the link [Baidu Netdist](https://pan.baidu.com/s/1wMj5v0xpPgMSjqaymmuJrw?pwd=9ArR). It should be noted that the path of the data is consistent with the file tree.
 
 ```sh
 ├── /data/
